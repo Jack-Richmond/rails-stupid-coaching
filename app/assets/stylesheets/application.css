@@ -13,3 +13,51 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+}
+
+input[name="question"] {
+  flex: 1;
+  padding: 10px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+blockquote {
+  background-color: #ffffcc;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+a {
+  color: #0056b3;
+}
+
+a:hover {
+  color: #ff2525;
+}
